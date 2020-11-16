@@ -56,10 +56,10 @@ export default function manifestoPage() {
             <h2 className="text-2xl text-left text-blue-400 font-bold font-sans leading-none py-4">Opportunity and Regret</h2>
             <h3 className="text-left text-white text-xl font-sans leading-normal pt-4 md:max-w-screen-sm lg:max-w-screen-sm">
             <p className="story">
-                When I was in 8th grade, I had the incredible opportunity of going to National Science Bowl Finals, one which I never crossed paths with again. Of course, I didn't know this, and I <span className="text-blue-400 underline">regret</span> not spending my time enjoying the experience fully.
+                When I was in 8th grade, I had the incredible opportunity of going to National Science Bowl Finals, one which I never crossed paths with again. Of course, I didn't know this, and I <span className="text-blue-400 underline">regret</span> not spending my time enjoying the experience to the fullest.
             </p>
             <p className="story">
-                I'm a earth and space science sorta guy, but I'm also a lazy sort of guy. I could never sit down in one place and read a lengthy passage of text for a prolonged period of time. Textbooks were not my way of learning and neither were videos.
+                I'm an earth and space science sorta guy, but I'm also a lazy sort of guy. I could never sit down in one place and read a lengthy passage of text for a prolonged period of time. Textbooks were not my way of learning and neither were videos.
             </p>
             <p className="story">
                 I recently understood that <span className="text-blue-400">I acquired most of my knowledge from talking to teachers and subject experts and watching documentaries. I learned to lucid dream which helped me remember the tiny details in in a imagery-filled world. Those were always the interesting parts of my day.</span> It was in 8th grade where I learned how I learned. I've since applied this everywhere.
@@ -71,7 +71,7 @@ export default function manifestoPage() {
                 Does this explain why I never got high grades? Maybe not. No, no, scratch that. Definitely not.
             </p>
             <p className="story">
-                My experienced and imaginative based learning technique has helped me learn some of the hardest topics and helped me decide some of my hardest decisions. But <span className="text-purple-400 underline">classical learning</span> has fazed me through my semi-permeable skin.
+                My experience and imaginative based learning technique has helped me learn some of the hardest topics and helped me decide some of my hardest decisions. But <span className="text-purple-400 underline">classical learning</span> has fazed me through my semi-permeable skin.
             </p>
             <p className="story">
                 <span className="text-purple-400">At the beginning of my first full semester during the coronavirus pandemic, I've noticed a couple things. Firstly, one does not need to go to class to understand a specific subject and topic. And secondly, one does not only need to work smarter, but also work responsibly.</span> Most of my teachers did a great job helping me manage my classwork and balance my mental health which wasn't all that difficult. Now back to being resourceful. If I was resourceful, why couldn't I handle my work as well as my fellow responsible friends?
