@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
-import Signature from '../components/signature'
 import Social from '../components/social'
 
 export default function IndexPage() {
@@ -9,7 +8,7 @@ export default function IndexPage() {
     <>
       <Head />
       <Nav />
-      <div className="mx-16 mt-4">
+      <div className="mx-8 md:mx-10 lg:mx-16 mt-4">
         <h1 className="heading">
           Hey! I'm Sarthak Mohanty.
         </h1>
