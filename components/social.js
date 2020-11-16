@@ -3,7 +3,7 @@ const links = [
   { href: 'https://sarthakmohanty.s3.amazonaws.com/Sarthak\'s+Resume.pdf', label: 'Resume', icon: 'file-copy-line' },
   { href: 'https://dribbble.com/sarthakmohanty', label: 'Dribble', icon: 'dribbble-line' },
   { href: 'https://behance.net/sarthaktexas', label: 'Behance', icon: 'behance-fill' },
-  {href: 'mailto:hello@sarthakmohanty.me', icon: 'send-plane-fill'}
+  { href: 'mailto:hello@sarthakmohanty.me', icon: 'send-plane-fill' },
 ]
 
 export default function Social() {
