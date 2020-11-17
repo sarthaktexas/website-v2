@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         'bg-1': '#320d3b',
       },
+      screens: {
+        'mobile': {'max': '640px'},
+      }
     },
   },
   variants: {},

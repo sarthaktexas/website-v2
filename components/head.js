@@ -18,18 +18,15 @@ export default function HeadBlock() {
       <meta property="og:title" content="Sarthak Mohanty" />
       <meta property="og:description" content="I'm Sarthak Mohanty, a rising high school junior and a full-stack developer and designer." />
       <meta property="og:image" content="https://cdn.glitch.com/52a09d93-774c-49a5-8883-9ac50e4c6dbf%2FSarthak%20Mohanty%2C%20Inc%20(1).png?v=1594723928537" />
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-      <link rel="manifest" href="/manifest.json" />
-      <meta name="theme-color" content="#140D1A" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="#140D1A" />
+      <link rel="manifest" href="/site.webmanifest" />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000" />
       <meta name="apple-mobile-web-app-title" content="Sarthak Mohanty" />
-      <link rel="apple-touch-icon" href="apple-touch-icon-152x152.png" />
-      <link rel="mask-icon" href="/favicon.ico" color="#140D1A" />
-      <meta name="msapplication-TileImage" content="/msapplication-icon-144x144.png" />
-      <meta name="msapplication-TileColor" content="#140D1A" />
+      <meta name="application-name" content="Sarthak Mohanty" />
+      <meta name="msapplication-TileColor" content="#f98ef0" />
+      <meta name="theme-color" content="#ff0000" />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
     </Head>
   )
