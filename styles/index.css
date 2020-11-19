@@ -25,6 +25,18 @@
   @apply text-6xl text-left text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 font-bold font-sans leading-none pb-4;
 }
 
+.stylistic-quote-mark {
+  font-size: 5rem;
+  right: 100%;
+  @apply -mr-8 hidden text-white opacity-50 font-serif absolute top-0 leading-none;
+}
+
+@screen sm {
+  .stylistic-quote-mark {
+    @apply block;
+  }
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
@@ -52,4 +64,15 @@ span.dotted {
 
 p.story {
   margin-bottom: 15px;
+}
+
+.masonry-with-columns {
+  columns: 6 200px;
+  column-gap: 1rem;
+}
+
+.masonry-with-columns div {
+  border-radius: 0.25rem;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
 }

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 const links = [
   { href: '/manifesto', label: 'Read my Manifesto' },
@@ -11,15 +10,13 @@ export default function Nav() {
       <ul className="flex flex-wrap justify-between items-center p-8">
         <li>
           <Link href="/">
-            <a className="text-pink-500 no-underline">
-            <Image
+            <img
               src="/signature.svg"
               alt="Signature of the creator"
-              width={100}
-                height={70}
-                className="flicker"
+              width={75}
+              height={50}
+              key="signature-nav"
             />
-            </a>
           </Link>
         </li>
         <ul className="flex flex-wrap justify-between items-center space-x-4">

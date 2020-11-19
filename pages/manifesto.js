@@ -1,6 +1,7 @@
 import Head from '../components/head'
 import Nav from '../components/nav'
 import Signature from '../components/signature'
+import Quote from '../components/quote'
 import Social from '../components/social'
 import FadeIn from 'react-fade-in';
 
@@ -82,16 +83,17 @@ export default function manifestoPage() {
                     <h2 className="text-2xl text-left text-pink-400 font-bold font-sans leading-none py-4">Resourcefulness</h2>
                     <h3 className="text-left text-white text-xl font-sans leading-normal pt-4 md:max-w-screen-sm lg:max-w-screen-sm">
                         <p className="story">
-                            To me, resourcefulness doesn't mean I'm able to handle difficult situations well. To me, it means in difficult situations, I'm able to find new solutions. Abstract thought every night brings me those solutions. Nature and earthly design processes parallel those thoughts and in turn create <span className="text-pink-400 underline">new</span>, <span className="text-pink-400 underline">beautiful</span>, and <span className="text-pink-400 underline">minimal</span> creations.
+                            To me, resourcefulness doesn't mean I'm able to handle difficult situations well. To me, it means in difficult situations, I'm able to find new solutions. Abstract thoughts every night bring me those solutions. Nature and earthly design processes parallel those thoughts and in turn create <span className="text-pink-400 underline">new</span>, <span className="text-pink-400 underline">beautiful</span>, and <span className="text-pink-400 underline">minimal</span> creations that can inspire.
                         </p>
                         <p className="story">
                             Those creations are what my brain thinks about every little while now and then. I focus on what I think matters. I'm a software developer and designer now. <span className="text-pink-400">Those moments with Play-Doh and the abstract thoughts at night quietly metamorphosed into who I am today. Whimsical thoughts and fantastical dreams characterize how I think about topics from the maths and sciences to the creative arts and social studies. I notice the sounds around me and it inspires me to create and motivates me to finish. Ambience is the best noise for creation in my opinion and creation is what fuels thought and produces knowledge.</span>
                         </p>
                         <p className="story">
-                            As I mold the Play-Doh of my memories into complex, three-dimensional thoughts, I think about what I've done to get to the point I'm at, and what I can do to become better. Whether that be the obvious or the opinionated, I strive to become more <span className="text-pink-400 underline">inventive</span> and <span className="text-pink-400 underline">resourceful</span> on my journey throughout life. I've learned that to be heard, you must make some noise, and so starts the bang. My life is my own and the future is up to us. So go think, dream, and create. Express yourself like you've never before.
+                            As I mold the Play-Doh of my memories into grand, conceptual ideas and thoughts, I think about what I've done to get to the point I'm at, and what I can do to become better. Whether that be the obvious or the opinionated, I strive to become more <span className="text-pink-400 underline">inventive</span> and <span className="text-pink-400 underline">resourceful</span> on my journey throughout life. I've learned that to be heard, you must make some noise, and so starts the bang. My life is my own and the future is up to us. So go think, dream, and create. Express yourself like you've never before.
                         </p>
                     </h3>
                     <Signature />
+                    <Quote />
                     <Social />
                 </div>
             </FadeIn>
