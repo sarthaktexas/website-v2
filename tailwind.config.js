@@ -11,7 +11,11 @@ module.exports = {
       },
       screens: {
         'mobile': {'max': '640px'},
-      }
+      },
+      opacity: {
+        '15': '0.15',
+        '20': '0.20',
+       }
     },
   },
   variants: {},

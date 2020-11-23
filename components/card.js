@@ -4,7 +4,7 @@ export default function Projects(props) {
     return (
         <>
             <Link href={props.href}>
-                <div className="w-4/5 rounded p-4 md:px-4 md:py-2 flex flex-col flex-1 md:flex-row md:flex-2 hover:bg-white hover:bg-opacity-25 hover:shadow-lg">
+                <div className="w-4/5 rounded p-4 md:px-4 md:py-2 flex flex-col flex-1 md:flex-row md:flex-2 hover:bg-white hover:bg-opacity-15 transition duration-300 hover:shadow-lg">
                     <div>
                         <i className={`ri-${props.icon || 'grid-fill'} ml-2 md:ml-0 group-hover:shadow-lg`} style={{ fontSize: 60, color: 'white'}}/>
                     </div>
