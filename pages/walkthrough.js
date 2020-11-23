@@ -43,7 +43,7 @@ export default function Walkthrough() {
                         <Card title="Zoom Dashboard" href="https://github.com/sarthaktexas/zoom-dashboard" icon="layout-grid-fill" description="Dashboard of Zoom links to make it easier to join zoom classes. Previously using Express, transitioning to Next."/>
                         <Card title="Resource Bank" href="https://rb.srtk.me" icon="bank-line" description="Bank of resources for school. SAT to AP Prep Books, Test Banks, Quiz Banks all-in-one."/>
                         <Card title="Link Shortener" href="https://srtk.me" icon="link" description="Shorten super-long links using my short domain. Accepts parameters at the end of links too!"/>
-                        <Card title="Rudolph" href="https://github.com/hackclub/rudolph" icon="coins-line" description="Carrot-eating monster. Rudolph is a gp-giving bot for Hack Club that awards Hack Clubbers during the month of December for making pull requests! Made in Swift."/>
+                        <Card title="Santa and Rudolph" href="https://github.com/hackclub/12DoC" icon="coins-line" description="Made for the week-long festival of open-source making. Santa and Rudolph are gp-giving slack bots for Hack Club that award Hack Clubbers during the festival of giving for making pull requests to a hackclub collective! Rudolph is made in Swift and Santa is made in Javascript."/>
                     </div>
                 </Fade>
                 <BouncingArrow />
@@ -75,7 +75,7 @@ export default function Walkthrough() {
                         Ready to <span className="">collaborate</span>?
                     </p>
                     <Social />
-                    <Link href="https://sarthakmohanty.s3.amazonaws.com/Sarthak\'s+Resume.pdf">
+                    <Link href="https://sarthakmohanty.s3.amazonaws.com/Sarthak's+Resume.pdf">
                         <h3 className="font-sans font-semibold px-2 py-1 mt-4 -ml-6 rounded text-white opacity-50 border border-white hover:underline">
                             Print out my Resume
                         </h3>
