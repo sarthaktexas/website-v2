@@ -39,13 +39,13 @@ const times = [
         title: 'Alamo City Hacks',
         position: 'Lead Organizer',
         description: 'Inclusively creating the next-generation of South Texas hackathons.',
-        date: new Date('2019-08-26'),
+        date: new Date('2020-08-26'),
     },
     {
         title: 'Hack Club',
         position: 'Community Lead and Member',
         description: 'We are the movement of students building the classes we wish we could take.',
-        date: new Date('2019-08-26'),
+        date: new Date('2020-09-16'),
     },
 ]
 

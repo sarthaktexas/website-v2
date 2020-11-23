@@ -25,6 +25,10 @@
   @apply text-6xl text-left text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 font-bold font-sans leading-none pb-4 pointer-events-none;
 }
 
+.sarthak-gradient {
+  @apply text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+}
+
 .stylistic-quote-mark {
   font-size: 5rem;
   right: 100%;

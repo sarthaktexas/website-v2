@@ -9,7 +9,7 @@ export default function IndexPage() {
       <Head />
       <Nav />
       <FadeIn delay="100">
-        <div className="mx-8 md:mx-10 lg:mx-16 mt-4">
+        <div className="mx-8 md:mx-10 lg:mx-16">
           <h1 className="heading">
             Hey! I'm Sarthak Mohanty.
           </h1>

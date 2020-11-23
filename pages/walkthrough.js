@@ -1,4 +1,5 @@
 import Head from '../components/head'
+import Nav from '../components/nav'
 import Tada from 'react-reveal/Tada';
 import Fade from 'react-reveal/Fade'
 import BouncingArrow from '../components/bouncing-arrow'
@@ -7,11 +8,23 @@ import Timeline from '../components/timeline'
 import Social from '../components/social'
 import Link from 'next/link'
 import NowPlaying from '../components/now-playing'
+import TopTracks from '../components/top-tracks'
 
 export default function Walkthrough() {
     return (
         <>
             <Head />
+            <div className="absolute -mb-6 ml-4 pt-4">
+                <Link href="/">
+                    <img
+                    src="/signature.svg"
+                    alt="Signature of the creator"
+                    width={75}
+                    height={50}
+                    key="signature-nav"
+                    />
+                </Link>
+            </div>
             <Tada id="name">
                 <div className="flex flex-col items-center justify-center h-screen mx-6 md:ml-0 overflow-hidden">
                     <h1 className="heading">
@@ -54,17 +67,26 @@ export default function Walkthrough() {
                         <Timeline />
                     </div>
                 </div>
-                <div className="flex items-center justify-center h-full -mt-12 animate-bounce text-white">
-                    <i className="ri-arrow-down-s-line" style={{ fontSize: 30 }}/>
-                </div>
+                <BouncingArrow />
             </Fade>
-            {/* <Fade bottom cascade>
-                <div className="flex items-center justify-center h-screen mx-6 md:ml-0">
+            <Fade id="music" bottom cascade>
+                <div className="flex flex-col gap-6 sm:items-center justify-center h-full my-20 mx-6 md:ml-0">
+                    <h1 className="text-2xl text-white font-bold">I <span className="underline text-pink-500">love</span> music. Here's what I'm listening to right now!</h1>
                     <NowPlaying />
+                    <h1 className="text-2xl text-white font-bold">and here are my <span className="underline text-purple-500">top ten songs</span>!</h1>
+                    <TopTracks />
                 </div>
-                <div className="flex items-center justify-center h-full -mt-12 animate-bounce text-white">
-                    <i className="ri-arrow-down-s-line" style={{ fontSize: 30 }}/>
+                <BouncingArrow />
+            </Fade>
+            {/* <Fade id="manifesto" bottom cascade>
+                <div className="flex flex-col items-center justify-center h-screen mx-6 md:mx-0">
+                    <Link href="/manifesto">
+                        <h3 className="font-sans text-4xl font-semibold px-6 py-2 mt-4 -ml-6 rounded-full shadow-lg text-white border border-pink-500 hover:bg-pink-500 hover:border-none">
+                            <p className="pointer-events-none">Read my Manifesto</p>
+                        </h3>
+                    </Link>
                 </div>
+                <BouncingArrow />
             </Fade> */}
             <Fade id="end" bottom cascade>
                 <div className="flex flex-col items-center justify-center h-screen mx-6 md:ml-0">
