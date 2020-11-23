@@ -22,7 +22,7 @@
 
 /* Write your own custom component styles here */
 .heading {
-  @apply text-6xl text-left text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 font-bold font-sans leading-none pb-4;
+  @apply text-6xl text-left text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 font-bold font-sans leading-none pb-4 pointer-events-none;
 }
 
 .stylistic-quote-mark {
