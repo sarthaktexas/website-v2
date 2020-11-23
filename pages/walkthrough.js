@@ -13,7 +13,7 @@ export default function Walkthrough() {
         <>
             <Head />
             <Tada id="name">
-                <div className="flex items-center justify-center h-screen mx-6 md:ml-0">
+                <div className="flex flex-col items-center justify-center h-screen mx-6 md:ml-0">
                     <h1 className="heading">
                         Hey! I'm Sarthak Mohanty.
                     </h1>
