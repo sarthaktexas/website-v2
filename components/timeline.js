@@ -56,7 +56,7 @@ export default function timeline(props) {
         <>
             <div className="flex justify-center h-full mt-20 mb-20 mx-6 md:mx-24">
                 <div id="timeline">
-                    <h3 className="font-bold text-3xl text-white text-opa ml-12 mb-3 md:ml-4">Timeline of Me</h3>
+                    <h3 className="font-bold text-3xl text-white mb-3 ml-6 md:ml-4">Timeline of Me</h3>
                     <div id="events" className="grid grid-rows-auto grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         <Slide bottom cascade>
                             {sortedTimes.map(({ title, position, description, date }) => (
