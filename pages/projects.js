@@ -2,6 +2,7 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import FadeIn from 'react-fade-in';
 import Card from '../components/card'
+import InlineProfile from '../components/inline-profile'
 import Link from 'next/link'
 import Social from '../components/social'
 

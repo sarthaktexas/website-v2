@@ -37,7 +37,7 @@ const quotes = [
     "There'll come a time when you have to make a hard choice. And, in that moment, you will discover what mettle you truly have, and what you're prepared to risk, for what matters.",
     "Paint your own picture. Don't be thrown off course by other people.",
     "It's always there, the truth. You just need to look for it.",
-    "You have to make some noise if you want to be heard",
+    "You have to make some noise if you want to be heard.",
     "My life is my own. And the future is up to us.",
     "Don't stop till you're proud.",
     "The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures.",

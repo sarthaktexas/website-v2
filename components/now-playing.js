@@ -17,11 +17,11 @@ export default function NowPlaying () {
       </div>
       <div className="justify-center flex flex-start flex-col mx-3">
         <Link href={data?.songUrl || ''}>
-          <p className="text-white text-opacity-75 font-bold max-w-190px whitespace-no-wrap overflow-hidden overflow-ellipsis">
+          <p className="text-white text-opacity-75 font-bold max-w-screen whitespace-no-wrap overflow-hidden overflow-ellipsis">
             {data ? data.title : 'Not Playing'}
           </p>
         </Link>
-        <p className="text-white text-opacity-50 mb-4 max-w-190px whitespace-no-wrap overflow-hidden overflow-ellipsis">
+        <p className="text-white text-opacity-50 mb-4 max-w-screen whitespace-no-wrap overflow-hidden overflow-ellipsis">
           {data ? data.artist : 'Spotify'}
         </p>
       </div>
