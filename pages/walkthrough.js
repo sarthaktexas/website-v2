@@ -76,7 +76,7 @@ export default function Walkthrough() {
                     </p>
                     <Social />
                     <Link href="https://sarthakmohanty.s3.amazonaws.com/Sarthak\'s+Resume.pdf">
-                        <h3 className="pointer-events-none font-sans font-semibold px-2 py-1 mt-4 -ml-6 rounded text-white opacity-50 border border-white hover:underline">
+                        <h3 className="font-sans font-semibold px-2 py-1 mt-4 -ml-6 rounded text-white opacity-50 border border-white hover:underline">
                             Print out my Resume
                         </h3>
                     </Link>
