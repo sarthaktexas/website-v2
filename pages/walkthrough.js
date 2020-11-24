@@ -1,7 +1,6 @@
 import Head from '../components/head'
 import Tada from 'react-reveal/Tada'
 import Fade from 'react-reveal/Fade'
-import Rotate from 'react-reveal/Rotate'
 import BouncingArrow from '../components/bouncing-arrow'
 import ProjectCard from '../components/project-card'
 import Timeline from '../components/timeline'
@@ -51,8 +50,8 @@ export default function Walkthrough() {
                 </div>
                 <BouncingArrow />
             </div>
-            <div id="hobbies">
-                <div className="grid grid-rows-3 md:grid-rows-2 grid-cols-1 md:grid-cols-2 gap-4 content-center justify-center h-screen mt-24 mb-48 mx-12 md:mx-16">
+            {/* <div id="hobbies">
+                <div cslassName="grid grid-rows-3 md:grid-rows-2 grid-cols-1 md:grid-cols-2 gap-4 content-center justify-center h-screen mt-24 mb-48 mx-12 md:mx-16">
                     <Fade bottom cascade>
                         <div className="transition duration-150 transform hover:skew-y-2 bg-photo row-span-1 col-span-1 md:row-span-2 rounded-xl">
                             <h1 className="ml-4 mt-12 font-bold text-white text-3xl leading-tight">
@@ -95,7 +94,7 @@ export default function Walkthrough() {
                     </Fade>
                 </div>
                 <BouncingArrow />
-            </div>
+            </div> */}
             <div id="projects">
                 <Fade bottom cascade>
                     <div className="flex flex-col gap-8 items-center justify-center h-full mt-20 mb-32 mx-6 md:ml-0">
