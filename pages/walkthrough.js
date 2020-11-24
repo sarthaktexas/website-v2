@@ -14,7 +14,7 @@ export default function Walkthrough() {
     return (
         <>
             <Head />
-            <div className="absolute -mb-6 ml-4 pt-4">
+            <div className="absolute -mb-6 ml-6 mt-6">
                 <Link href="/">
                     <img
                     src="/signature.svg"
@@ -25,14 +25,16 @@ export default function Walkthrough() {
                     />
                 </Link>
             </div>
-            <Tada id="name">
-                <div className="flex flex-col items-center justify-center h-screen mx-6 md:ml-0 overflow-hidden">
-                    <h1 className="heading">
-                        Hey! I'm Sarthak Mohanty.
-                    </h1>
-                </div>
+            <div id="name">
+                <Tada>
+                    <div className="pointer-events-none flex flex-col items-center justify-center h-screen mx-6 md:ml-0 overflow-hidden">
+                        <h1 className="heading text-center">
+                            Hey! I'm Sarthak Mohanty.
+                        </h1>
+                    </div>
+                </Tada>
                 <BouncingArrow />
-            </Tada>
+            </div>
             <div id="description">
                 <div className="flex items-center flex-col justify-center h-screen mx-6 md:ml-0">
                     <Fade bottom cascade>
@@ -71,9 +73,9 @@ export default function Walkthrough() {
             </Fade>
             <Fade id="music" bottom cascade>
                 <div className="flex flex-col gap-6 sm:items-center justify-center h-full my-20 mx-6 md:ml-0">
-                    <h1 className="text-2xl text-white font-bold">I <span className="underline text-pink-500">love</span> music. Here's what I'm listening to right now!</h1>
+                    <h1 className="text-2xl text-white font-bold mb-5 sm:mb-0">I <span className="underline text-pink-500">love</span> music. <span className="muted">Here's what I'm listening to right now.</span></h1>
                     <NowPlaying />
-                    <h1 className="text-2xl text-white font-bold">and here are my <span className="underline text-purple-500">top ten songs</span>!</h1>
+                    <h1 className="text-2xl text-white font-bold mb-5 sm:mb-0">and here are my <span className="underline text-purple-500">top ten songs</span>!</h1>
                     <TopTracks />
                 </div>
                 <BouncingArrow />

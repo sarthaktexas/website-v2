@@ -8,7 +8,7 @@ const links = [
 export default function Nav() {
   return (
     <nav>
-      <ul className="flex flex-wrap justify-between items-center p-8">
+      <ul className="flex flex-col sm:flex-row flex-wrap justify-between items-start sm:items-center p-8">
         <li>
           <Link href="/">
             <img
@@ -20,7 +20,7 @@ export default function Nav() {
             />
           </Link>
         </li>
-        <ul className="flex flex-wrap justify-between items-center space-x-4">
+        <ul className="flex flex-wrap justify-between items-center space-x-4 mt-6 sm:mt-0">
           {links.map(({ href, label }) => (
             <li key={`${href}${label}`}>
               <Link href={href}>

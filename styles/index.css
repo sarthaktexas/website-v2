@@ -29,6 +29,10 @@
   @apply text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
 }
 
+.muted {
+  @apply text-white text-opacity-50;
+}
+
 .stylistic-quote-mark {
   font-size: 5rem;
   right: 100%;
