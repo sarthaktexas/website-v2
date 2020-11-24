@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bg-1': '#320d3b',
+        'lime': '#32cd32',
       },
       screens: {
         'mobile': {'max': '640px'},

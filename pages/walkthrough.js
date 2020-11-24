@@ -1,9 +1,9 @@
 import Head from '../components/head'
-import Nav from '../components/nav'
-import Tada from 'react-reveal/Tada';
+import Tada from 'react-reveal/Tada'
 import Fade from 'react-reveal/Fade'
+import Rotate from 'react-reveal/Rotate'
 import BouncingArrow from '../components/bouncing-arrow'
-import Card from '../components/card'
+import ProjectCard from '../components/project-card'
 import Timeline from '../components/timeline'
 import Social from '../components/social'
 import Link from 'next/link'
@@ -51,14 +51,60 @@ export default function Walkthrough() {
                 </div>
                 <BouncingArrow />
             </div>
+            <div id="hobbies">
+                <div className="grid grid-rows-3 md:grid-rows-2 grid-cols-1 md:grid-cols-2 gap-4 content-center justify-center h-screen mt-24 mb-48 mx-12 md:mx-16">
+                    <Fade bottom cascade>
+                        <div className="transition duration-150 transform hover:skew-y-2 bg-photo row-span-1 col-span-1 md:row-span-2 rounded-xl">
+                            <h1 className="ml-4 mt-12 font-bold text-white text-3xl leading-tight">
+                                Photography
+                                <br />
+                                <Link href="https://photos.sarthakmohanty.me">
+                                    <div className="muted">
+                                        capturing the
+                                        <span className="inline text-yellow-400"> intangible</span>
+                                    </div>
+                                </Link>
+                            </h1>
+                        </div>
+                        <div className="transition duration-150 transform hover:skew-y-2 md:hover:-skew-y-2 bg-design row-span-1 col-span-1 rounded-xl">
+                            <h1 className="ml-4 mt-12 font-bold text-white text-3xl leading-tight">
+                                Design
+                                <br />
+                                <Link href="https://dribbble.com/sarthakmohanty">
+                                    <div className="muted">
+                                        modern and minimal with a
+                                        <span className="inline text-orange-600"> hint </span>
+                                        of progress
+                                    </div>
+                                </Link>
+                            </h1>
+                        </div>
+                        <div className="transition duration-150 transform hover:skew-y-2 md:hover:-skew-y-2 bg-dev row-span-1 col-span-1 rounded-xl">
+                            <h1 className="pointer-events-none ml-4 mt-12 font-bold text-white text-3xl leading-tight">
+                                Programming
+                                <br />
+                                <Link href="https://github.com/sarthaktexas">
+                                    <div className="muted">
+                                        fast and responsive with a
+                                        <span className="inline text-lime"> pinch </span>
+                                        of creative
+                                    </div>
+                                </Link>
+                            </h1>
+                        </div>
+                    </Fade>
+                </div>
+                <BouncingArrow />
+            </div>
             <div id="projects">
                 <Fade bottom cascade>
-                    <div className="flex flex-col gap-8 items-center justify-center h-full mb-20 mx-6 md:ml-0">
-                        <Card title="Website" href="/" icon="home-2-line" description="This current website. Made with Next and Tailwind."/>
-                        <Card title="Zoom Dashboard" href="https://github.com/sarthaktexas/zoom-dashboard" icon="layout-grid-fill" description="Dashboard of Zoom links to make it easier to join zoom classes. Previously using Express, transitioning to Next."/>
-                        <Card title="Resource Bank" href="https://rb.srtk.me" icon="bank-line" description="Bank of resources for school. SAT to AP Prep Books, Test Banks, Quiz Banks all-in-one."/>
-                        <Card title="Link Shortener" href="https://srtk.me" icon="link" description="Shorten super-long links using my short domain. Accepts parameters at the end of links too!"/>
-                        <Card title="Santa and Rudolph" href="https://github.com/hackclub/12DoC" icon="coins-line" description="Made for the week-long festival of open-source making, Santa and Rudolph are gp-giving slack bots for Hack Club that award Hack Clubbers during the festival of giving for making pull requests to a hackclub collective! Rudolph is made in Swift and Santa is made in Javascript."/>
+                    <div className="flex flex-col gap-8 items-center justify-center h-full mt-20 mb-32 mx-6 md:ml-0">
+                        <h1 className="font-bold heading text-4xl ml-16 mr-6">Some of my selected projects</h1>
+                        <ProjectCard title="Personal Website" href="/" icon="home-2-line" description="This current website. Made with Next and Tailwind." />
+                        <ProjectCard title="Zoom Dashboard" href="https://github.com/sarthaktexas/zoom-dashboard" icon="layout-grid-fill" description="Dashboard of Zoom links to make it easier to join zoom classes. Previously using Express, transitioning to Next."/>
+                        <ProjectCard title="Resource Bank" href="https://rb.srtk.me" icon="bank-line" description="Bank of resources for school. SAT to AP Prep Books, Test Banks, Quiz Banks all-in-one."/>
+                        <ProjectCard title="Link Shortener" href="https://srtk.me" icon="link" description="Shorten super-long links using my short domain. Accepts parameters at the end of links too!"/>
+                        <ProjectCard title="Santa and Rudolph" href="https://github.com/hackclub/12DoC" icon="coins-line" description="Made for the week-long festival of open-source making, Santa and Rudolph are gp-giving slack bots for Hack Club that award Hack Clubbers during the festival of giving for making pull requests to a hackclub collective! Rudolph is made in Swift and Santa is made in Javascript."/>
                     </div>
                 </Fade>
                 <BouncingArrow />
@@ -80,16 +126,6 @@ export default function Walkthrough() {
                 </div>
                 <BouncingArrow />
             </Fade>
-            {/* <Fade id="manifesto" bottom cascade>
-                <div className="flex flex-col items-center justify-center h-screen mx-6 md:mx-0">
-                    <Link href="/manifesto">
-                        <h3 className="font-sans text-4xl font-semibold px-6 py-2 mt-4 -ml-6 rounded-full shadow-lg text-white border border-pink-500 hover:bg-pink-500 hover:border-none">
-                            <p className="pointer-events-none">Read my Manifesto</p>
-                        </h3>
-                    </Link>
-                </div>
-                <BouncingArrow />
-            </Fade> */}
             <Fade id="end" bottom cascade>
                 <div className="flex flex-col items-center justify-center h-screen mx-6 md:ml-0">
                     <h1 className="heading text-center">

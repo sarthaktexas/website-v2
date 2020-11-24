@@ -10,7 +10,7 @@ const quotes = [
     "I am who I am and I have the need to be.",
     "The most beautiful things in the world cannot be seen or touched, they are felt with the heart.",
     "All men have stars, but they are not the same things for different people. For some, who are travelers, the stars are guides. For others they are no more than little lights in the sky. For others, who are scholars, they are problems... But all these stars are silent. You-You alone will have stars as no one else has them.",
-    "No one is ever satisfied where he is.",
+    "No one is ever satisfied where they are.",
     "You become responsible, forever, for what you have tamed.",
     "Well, I must endure the presence of a few caterpillars if I wish to become acquainted with the butterflies.",
     "What matters most are the simple pleasures so abundant that we can all enjoy them...Happiness doesn't lie in the objects we gather around us. To find it, all we need to do is open our eyes.",
@@ -19,7 +19,7 @@ const quotes = [
     "It is the time you have wasted for your rose that makes your rose so important.",
     "What makes the desert beautiful, is that somewhere it hides a well..",
     "Snow hides a lot.",
-    "Bottling up all that emotion turns into anxiety",
+    "Bottling up all that emotion turns into anxiety.",
     "Your life is to be lived. Not put into a neat container to try and control. It's not possible. Trust me.",
     "When life offers you something special...you take it.",
     "You're never gonna be happy if you constantly live in fear.",
@@ -47,11 +47,11 @@ var quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 export default function QuoteRandomizer(props) {
     return (
-        <blockquote className="z-0 relative p-4 text-xl italic border-l-4 text-black border-white quote">
-            <div className="stylistic-quote-mark" aria-hidden="true">
+        <blockquote className="z-0 relative p-4 text-xl italic border-l-4 text-black border-white border-opacity-50 quote">
+            {/* <div className="stylistic-quote-mark" aria-hidden="true">
                 &ldquo;
-            </div>
-            <p className="z-10 mb-4 text-white font-bold font-sans">{ quote }</p>
+            </div> */}
+            <p className="z-10 mb-4 text-white text-opacity-50 font-bold font-mono">{ quote }</p>
         </blockquote>
     )
 }

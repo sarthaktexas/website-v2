@@ -33,6 +33,10 @@
   @apply text-white text-opacity-50;
 }
 
+.black-muted {
+  @apply text-black text-opacity-75;
+}
+
 .stylistic-quote-mark {
   font-size: 5rem;
   right: 100%;
@@ -74,13 +78,24 @@ p.story {
   margin-bottom: 15px;
 }
 
-.masonry-with-columns {
-  columns: 6 200px;
-  column-gap: 1rem;
+div.bg-photo {
+  background-color: black;
+  background-image: url('https://images.unsplash.com/photo-1606054512716-fb198b6686c9');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
-.masonry-with-columns div {
-  border-radius: 0.25rem;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
+div.bg-design {
+  background-color: black;
+  background-image: url('/gradient-lines.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.bg-dev {
+  background-color: black;
+  background-image: url('/gradient-code.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

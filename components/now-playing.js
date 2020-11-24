@@ -18,11 +18,11 @@ export default function NowPlaying () {
       <div className="justify-center flex flex-start flex-col mx-3">
         <Link href={data?.songUrl || ''}>
           <p className="text-white text-opacity-75 font-bold max-w-screen whitespace-no-wrap overflow-hidden overflow-ellipsis">
-            {data ? data.title : 'Not Playing'}
+            {data?.title || 'Not Playing'}
           </p>
         </Link>
         <p className="text-white text-opacity-50 mb-4 max-w-screen whitespace-no-wrap overflow-hidden overflow-ellipsis">
-          {data ? data.artist : 'Spotify'}
+          {data?.artist || 'Spotify'}
         </p>
       </div>
       <i className="ri-spotify-fill ml-auto mt-1" style={{ color: 'white' }} />
