@@ -2,10 +2,14 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import Social from '../components/social'
 import FadeIn from 'react-fade-in';
+import Snow from 'resnow'
 
 export default function IndexPage() {
   return (
-    <>
+    <div className="overflow-hidden md:fixed md:w-screen">
+      <div className="hidden sm:block -mb-4">
+        <Snow style={{ position: "absolute", top: 0, bottom: 0, left: 0, right: 0, marginBottom: 0 }} />
+      </div>
       <Head />
       <Nav />
       <FadeIn delay="100">
@@ -24,6 +28,6 @@ export default function IndexPage() {
           <Social />
         </div>
       </FadeIn>
-    </>
+    </div>
   )
 }

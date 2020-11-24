@@ -78,7 +78,7 @@ p.story {
   margin-bottom: 15px;
 }
 
-div.bg-photo {
+/* div.bg-photo {
   background-color: black;
   background-image: url('https://images.unsplash.com/photo-1606054512716-fb198b6686c9');
   background-size: cover;
@@ -98,4 +98,8 @@ div.bg-dev {
   background-image: url('/gradient-code.png');
   background-size: cover;
   background-repeat: no-repeat;
+} */
+
+.noscroll {
+  overflow-y: hidden;
 }

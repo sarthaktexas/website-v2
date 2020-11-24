@@ -4920,6 +4920,11 @@ repeat-string@^1.6.1:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
+resnow@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/resnow/-/resnow-1.0.0.tgz#c5928fd8af134d18dfd6ba6099cf43769c8088e0"
+  integrity sha512-lsqv4IQcFdfkS0cFMzyLAMSn0PF0PKGa6r3PXYtgBBpIthtKHWA3hEXaTiE9ZwJ7wujZKliCQAiVaBADBd/yFg==
+
 resolve-url-loader@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.2.tgz#235e2c28e22e3e432ba7a5d4e305c59a58edfc08"
