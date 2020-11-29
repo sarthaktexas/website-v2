@@ -17,7 +17,7 @@ export default function HeadBlock() {
       <meta property="og:url" content="https://srtk.me" />
       <meta property="og:title" content="Sarthak Mohanty" />
       <meta property="og:description" content="I'm Sarthak Mohanty, a rising high school junior and a full-stack developer and designer." />
-      <meta property="og:image" content="https://cdn.glitch.com/52a09d93-774c-49a5-8883-9ac50e4c6dbf%2FSarthak%20Mohanty%2C%20Inc%20(1).png?v=1594723928537" />
+      <meta property="og:image" content="https://og-cards.sarthakmohanty.vercel.app/Sarthak%20Mohanty.png?theme=dark&md=1&fontSize=200px" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -27,6 +27,7 @@ export default function HeadBlock() {
       <meta name="application-name" content="Sarthak Mohanty" />
       <meta name="msapplication-TileColor" content="#f98ef0" />
       <meta name="theme-color" content="#ff0000" />
+      <script async defer data-website-id="e39b497a-ff19-4ad0-bad6-4ef80cab9cde" src="https://analytics.sarthakmohanty.me/umami.js"></script>
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
     </Head>
   )
