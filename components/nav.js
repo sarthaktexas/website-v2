@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/manifesto', label: 'Read my Manifesto' },
-  { href: '/walkthrough', label: 'Learn More' },
+  //{ href: '/manifesto', label: 'Read my Manifesto' },
+  //{ href: '/walkthrough', label: 'Learn More' },
 ]
 
 export default function Nav() {
